@@ -27,7 +27,7 @@ pip install clip pyyaml deepfloyd
 ## Data Processing
 All images are resized to 256x256 pixels
 
-## Training Script
+## Training Encoder Script
 ```bash 
 python scripts/train_clip_inversion.py \
     -c configs/train_deepfloyd_inversion.yaml \
@@ -41,4 +41,8 @@ python scripts/train_clip_inversion.py \
     blip_guidance=0 \
     num_placeholder_groups=3 \
     num_placeholder_words=215
+```
+##  PSE Script
+```bash
+python endorare_pse.py
 ```
