@@ -46,3 +46,6 @@ python scripts/train_clip_inversion.py \
 ```bash
 python endorare_pse.py
 ```
+## Acknowledgements
+This codebase is based on and adapted from the open-source repository sharonal10/langint.
+
